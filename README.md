@@ -1,6 +1,6 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Temperature Effects on Kelp: Dealing with Missing Temperature Imputation
 
-> A brief description of what the project does and its purpose.
+>  We will assess various methods for imputing missing temperature data in the NWSC-MRC kelp monitoring datasets.
 
 ---
 
@@ -9,8 +9,8 @@
 Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
 - **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Domain:** Ecology
+- **Key Techniques:** knn, linear regression
 
 ---
 
@@ -28,9 +28,10 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** Link to the data source(s) 
+- **Source:**
+- NWS-MRC Data - Community Science Monitoring Efforts Performed by the Marine Resource Committees (MRCs) and Northwest Straits Commission (NWSC) 2016 - 2024
 - **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
+- **License:** 
 
 ---
 
@@ -47,9 +48,9 @@ Include a short discussion of the findings and what they imply.
 ---
 
 ## Authors
+- Carter Ellis- [@EllisWebb](github.com/EllisWebb)
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
-
+- Ahrial Young - [@ayoung42](https://github.com/ayoung42)
 ---
 
 ## License
