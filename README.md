@@ -27,7 +27,8 @@
 ## Data
 
 - **Source:**
-- NWS-MRC Kayak Kelp Monitoring Data - Community Science Monitoring Efforts Performed by the Marine Resource Committees (MRCs), funded and managed by Northwest Straits Commission (NWSC) 2015 - 2024. While we have been given special permission to use a larger data set, the public version is available at: https://experience.arcgis.com/experience/5416ae7c51ae4244a1a42ba679c1479f/page/ 
+- NWS-MRC Kayak Kelp Monitoring Data - Community Science Monitoring Efforts Performed by the Marine Resource Committees (MRCs), funded and managed by Northwest Straits Commission (NWSC) 2015 - 2024.
+- While we have been given special permission to use a larger data set, the public version is available at: https://experience.arcgis.com/experience/5416ae7c51ae4244a1a42ba679c1479f/page/ 
   
 - **Description:** A census data set created with the express aim to monitor the location, spatial migration, and area of kelp forests around the Puget Sound. In addition this data set contains Sea Surface Temperature Data and Kelp Expression Area in Acres at 31 sites across the Salish Sea.
 
@@ -36,7 +37,8 @@ Data used in our specific project is not for public use or publication.
   
 
 
-- Washington State Department of Ecology (2026). Environmental Information Management database [Environmental monitoring data portal]. Washington State Department of Ecology. Available at: https://ecology.wa.gov/research-data/data-resources/environmental-information-management-database (accessed Feb 14, 2026).
+- Washington State Department of Ecology (2026). Environmental Information Management database [Environmental monitoring data portal]. Washington State Department of Ecology.
+- Available at: https://ecology.wa.gov/research-data/data-resources/environmental-information-management-database (accessed Feb 14, 2026).
   
 - **Description:** A searchable database of environmental monitoring data including air, water, soil, sediment, and biological sampling. Our specific sub database is that of the Water Parameter and Sediment Monitoring which has been tracking sediment chemistry and water chemistry (including temperature, dissolved oxygen, light attenuation, etc) since 1999.
   
