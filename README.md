@@ -50,14 +50,9 @@ Web Communications Manager, Washington State Department of Ecology, PO Box 47600
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
-
 The notebooks should be run in this order:
-1. Mid_clean
-2. EDA_linegraphs # for interesting intermediate EDA
-3. imputation # imputation
-
-Mid cleaning cleans and does some initial preprocessing of the data. EDA_line graphs produces line graphs depicting the temperature recordings over time. imputation compares different imputation methods and their effectiveness.
+	1.	final_clean #includes the entire cleaning pipeline, including simplification, attribute standardization, kelp site lat/lon join, and basic exploratory data analysis.
+	2.	imputation #includes regression-related exploratory data analysis, train-test splits, and three variations of kNN (unscaled, scaled, and GridSearchCV), as well as pertinent regression and error plots. Using the best model, GridSearchCV, it imputes relevant missing temperature values and explores their validity.
 
 ---
 
