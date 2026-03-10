@@ -1,6 +1,6 @@
 # Temperature Effects on Kelp: Dealing with Missing Temperature Imputation
 
->  We will assess the use of k-Nearest Neighbors regresssions methods for imputing missing temperature data in a Northwest Strait Commission (NWSC) - Marine Resrouce Comittie (MRC) kelp forest monitoring dataset using Washington Department of Ecology (WDOE), Enviromental Information Magagment (EIM) databse containing temperature observations at variable depths, times, and distances from the afformentioned kelp forests.
+>  We will assess the use of k-Nearest Neighbors regression methods for imputing missing temperature data in a Northwest Strait Commission (NWSC) - Marine Resource Committee (MRC) kelp forest monitoring dataset using Washington Department of Ecology (WDOE), Environmental Information Management (EIM) database containing temperature observations at variable depths, times, and distances from the aforementioned kelp forests.
 
 ---
 
@@ -28,7 +28,7 @@
 
 - **Source:**
 - NWS-MRC Kayak Kelp Monitoring Data - Community Science Monitoring Efforts Performed by the Marine Resource Committees (MRCs), funded and managed by Northwest Straits Commission (NWSC) 2015 - 2024.
-- While we have been given special permission to use a larger data set, the public version is available at: https://experience.arcgis.com/experience/5416ae7c51ae4244a1a42ba679c1479f/page/ 
+- We have been given special permission to use a larger data set, however, the public version is available at: https://experience.arcgis.com/experience/5416ae7c51ae4244a1a42ba679c1479f/page/ 
   
 - **Description:** A census data set created with the express aim to monitor the location, spatial migration, and area of kelp forests around the Puget Sound. In addition this data set contains Sea Surface Temperature Data and Kelp Expression Area in Acres at 31 sites across the Salish Sea.
 
@@ -55,15 +55,15 @@ Describe the notebooks and/or scripts used to perform the analysis. Specify the 
 The notebooks should be run in this order:
 1. Mid_clean
 2. EDA_linegraphs # for interesting intermediate EDA
-3. kelp_modeling1 # imputation
+3. imputation # imputation
 
-Mid cleaning cleans and does some initial preprocessing of the data. EDA_line graphs produces line graphs depicting the temperature recordings over time. kelp_modeling compares different imputation methods and their effectiveness.
+Mid cleaning cleans and does some initial preprocessing of the data. EDA_line graphs produces line graphs depicting the temperature recordings over time. imputation compares different imputation methods and their effectiveness.
 
 ---
 
 ## Results
 
-kNN imputations were succesful and yeilded intersting results. Three parralel models were tested including a model using scaled features, a model using unscaled features, and a model optimized using GridSearchCV. Model performance improved modestly across these variations with the best performing model being (GridSearchCV). This model achieved an MSE of 6.13, MAE of approximately 2.01°C, and an R^2 of −0.56. Although the negative R^2 values indicate that the model performs worse simple mean prediction of the test data, we are confident differences between the EIM and kelp datasets are the culprit; especialy considering compared data and predicted value distrobutions. With only eighteen kelp observations required for imputation the difference between this magnitude and the model was trained on, the larger WDOE - EIM dataset; it can be expected the imputed values would tend to represent conservative estimates that follow the general trends in the greater watercolumn rather than reproducing the full local variability at kelp sites.
+kNN imputations were successful and yielded interesting results. Three parallel models were tested including a model using scaled features, a model using unscaled features, and a model optimized using GridSearchCV. Model performance improved modestly across these variations with the best performing model being (GridSearchCV). This model achieved an MSE of 6.13, MAE of approximately 2.01°C, and an R^2 of −0.56. Although the negative R^2 values indicate that the model performs worse simple mean prediction of the test data, we are confident differences between the EIM and kelp datasets are the culprit; especialy considering compared data and predicted value distrobutions. With only eighteen kelp observations required for imputation the difference between this magnitude and the model was trained on, the larger WDOE - EIM dataset; it can be expected the imputed values would tend to represent conservative estimates that follow the general trends in the greater watercolumn rather than reproducing the full local variability at kelp sites.
 
 Depsite these considerations, the best model was able to estimate temperatures within roughly ±2°C.
 
@@ -90,7 +90,7 @@ Thanks to NWSC Employees Jeff Whitty, Leah Skare, and Suzanne Shull for collatin
 
 Thanks to all MRC volunteers for hundreds of hours on the water collecting data. 
 
-Thnaks to Sydney Golden for her work in previous courses exploring correlations between temperature and kelp health. 
+Thanks to Sydney Golden for her work in previous courses exploring correlations between temperature and kelp health. 
 
 
 
