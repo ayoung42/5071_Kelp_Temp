@@ -67,7 +67,7 @@ Depsite these considerations, the best model was able to estimate temperatures w
 
 While it is true, the kNN approach does not capture the full complexity of the system, it provides a framework to produce plausible temperature estimates that align with the general temporal and spatial patterns of the greater region. With this in mind, it we propose this to be a reasonable proof-of-concept for filling missing values in the kelp dataset.
 
-Future attempts should aim to incoorperate the a higher degree of localized variability that is characterstic of the kelp forest study sites. From a simple spatial-temporal perspective these efforts could focus on Gaussian Regression [https://www.mathworks.com/help/stats/gaussian-process-regression-models.html] or Generalized Additive Modeling [https://www.mathworks.com/help/stats/generalized-additive-model-regression.html], however, these are outside of our current understanding and scope for the project.
+Future attempts should aim to incoorperate the a higher degree of localized variability that is characterstic of the kelp forest study sites. From a simple spatial-temporal perspective these efforts could focus on [Gaussian Regression] (https://www.mathworks.com/help/stats/gaussian-process-regression-models.html) or [Generalized Additive Modeling] (https://www.mathworks.com/help/stats/generalized-additive-model-regression.html), however, these are outside of our current understanding and scope for the project.
 
 ---
 
