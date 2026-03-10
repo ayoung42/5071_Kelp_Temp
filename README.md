@@ -46,6 +46,7 @@ Data used in our specific project is not for public use or publication.
 Copyright © 1994-2024. Washington State Department of Ecology. All rights reserved.
 Web Communications Manager, Washington State Department of Ecology, PO Box 47600, Olympia, WA 98504-7600, 360-918-1483.
 
+![Spatial Distrobution of Relavent Datasets](reports/GIS_KNN_Site_Map.png)
 ---
 
 ## Analysis
