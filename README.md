@@ -57,9 +57,9 @@
 
 The notebooks should be run in this order:
 
-	1.	final_clean #includes the entire cleaning pipeline, including simplification, attribute standardization, kelp site lat/lon join, and basic exploratory data analysis.
+1.	final_clean #includes the entire cleaning pipeline, including simplification, attribute standardization, kelp site lat/lon join, and basic exploratory data analysis.
 	
-	2.	imputation #includes regression-related exploratory data analysis, train-test splits, and three variations of kNN (unscaled, scaled, and GridSearchCV), as well as pertinent regression and error plots. Using the best model, GridSearchCV, it imputes relevant missing temperature values and explores their validity.
+2.	imputation #includes regression-related exploratory data analysis, train-test splits, and three variations of kNN (unscaled, scaled, and GridSearchCV), as well as pertinent regression and error plots. Using the best model, GridSearchCV, it imputes relevant missing temperature values and explores their validity.
 
 ---
 
