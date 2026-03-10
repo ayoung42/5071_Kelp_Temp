@@ -1,6 +1,9 @@
 # Core
 numpy
 pandas
+math
+scipy, special, stats
+datetime
 
 # Visualization
 matplotlib
@@ -10,6 +13,7 @@ seaborn
 # Machine Learning
 scikit-learn
 statsmodels
+sklearn
 
 
 # Jupyter & Development
