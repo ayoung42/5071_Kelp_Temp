@@ -84,7 +84,7 @@ Licenses outside of data copyright are not applicable.
 ---
 
 ## Acknowledgements
-Thanks to NWSC Employees Jeff Whitty, Leah Skare, and Suzzane Shull for collating and QA/QCing the data, not to mention the day to day work they do to manage the Kelp Monitoring Data. 
+Thanks to NWSC Employees Jeff Whitty, Leah Skare, and Suzanne Shull for collating and QA/QCing the data, not to mention the day to day work they do to manage the Kelp Monitoring Data. 
 
 Thanks to all MRC volunteers for hundreds of hours on the water collecting data. 
 
